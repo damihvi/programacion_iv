@@ -21,9 +21,4 @@ fun main() {
         println("padawan")
     }
 
-    modelo = "r2-d2"
-    when(modelo: String){
-
-    }
-
 }
