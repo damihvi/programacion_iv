@@ -22,7 +22,7 @@ enum class TipoBus(val color: String, val capacidad: Int) {
     }
 }
 
-// Clase que representa un bus específico
+
 class Bus(val tipo: TipoBus, val conductor: String) {
     fun arrancar() = "!brrr! El bus de color ${tipo.color} conducido por ${conductor} está en ruta"
     fun info() = "${tipo.descripcion()} - capacidad: ${tipo.capacidad} pasajeros"

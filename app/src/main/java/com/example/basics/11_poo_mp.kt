@@ -1,6 +1,6 @@
 package com.example.basics
 
-data class Bus(
+data class Bus1(
     val nombre: String,
     val capacidad: Int,
     val pasajerosActuales: Int,
@@ -19,11 +19,11 @@ data class Bus(
     fun puedeSalir(): Boolean = pasajerosActuales <= capacidad
 
     // Función: necesita mantenimiento
-    fun requiereMantenimiento(): Boolean = pasajerosActuales > capacidad
+
 }
 
 fun main() {
-    val bus1 = Bus(
+    val bus1 = Bus1(
         nombre = "Bus A",
         capacidad = 50,
         pasajerosActuales = 35,
