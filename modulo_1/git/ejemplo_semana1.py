@@ -1,1 +1,1 @@
-print("este es un ejemplo de gestion de transporte publico")
+print("este es un ejemtplo de gestion de transporte publico")
