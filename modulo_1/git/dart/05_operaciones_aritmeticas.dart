@@ -5,5 +5,6 @@ void main() {
   print("suma $number1+$number2 =${number1 + number2 }");
   print("resta $number1-$number2 =${number1 - number2 }");
   print("multiplicacion $number1*$number2 =${number1 * number2 }");
-  print("division $number1/$number2 =${number1 / number2 }");
+  print("division $number1/$number2 =${number1 /number2}");
+
 }
