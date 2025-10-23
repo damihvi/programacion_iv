@@ -3,38 +3,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_bright"
-    android:padding="16dp"
-    >
+    android:padding="16dp">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:src="@drawable/img"
-        android:background="@android:color/holo_red_light"
-        />
+        android:src ="@drawable/img"
+        android:background="@android:color/holo_green_light"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="bienvenidos a la ute"
+        android:text="Bienvenidos a la UTE"
         android:textSize="24dp"
         android:background="@android:color/background_dark"
-        android:textColor="@color/white"
-        />
+        android: android:textColor="@color/white"
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_gravity="end|bottom"
-            android:layout_margin="64dp"
-            />
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_gravity="end|bottom"
-            />
-    </FrameLayout>
 
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="64dp"
+            android:src="@android:drawable/ic_btn_speak_now" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:src="@android:drawable/ic_media_play" />
+
+    </FrameLayout>
 </FrameLayout>
