@@ -4,6 +4,7 @@ import 'pages/hospital_home_page.dart';
 import 'pages/bmi_page.dart';
 import 'pages/dose_page.dart';
 import 'pages/appointment_cost_page.dart';
+import 'pages/hospitalization_cost_page.dart';
 
 final GoRouter appRouter = GoRouter(
   routes: [
@@ -22,6 +23,10 @@ final GoRouter appRouter = GoRouter(
     GoRoute(
       path: '/appointment',
       builder: (_, __) => const AppointmentCostPage(),
+    ),
+    GoRoute(
+      path: '/hospitalization',
+      builder: (_, __) => const HospitalizationCostPage(),
     ),
   ],
 );

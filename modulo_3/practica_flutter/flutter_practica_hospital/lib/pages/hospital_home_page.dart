@@ -35,6 +35,12 @@ class HospitalHomePage extends StatelessWidget {
               onPressed: () => context.go('/appointment'),
               child: const Text('Costo de cita médica'),
             ),
+            const SizedBox(height: 12),
+
+            ElevatedButton(
+              onPressed: () => context.go('/hospitalization'),
+              child: const Text('Costo de hospitalización'),
+            ),
           ],
         ),
       ),
